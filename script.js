@@ -105,7 +105,7 @@ const PanelData = [
         id: 'sifilis',
         title: 'Sífilis',
         description: 'Informações sobre os casos de Sífilis do município.',
-        url: 'https://drive.google.com/drive/folders/1_PGDya85p3BpYbB_yGcMQNItnSOC6wF9?usp=sharing', //USANDO SIFILIS 22-23 ATÉ 2025 FICAR PRONTO
+        url: 'https://lookerstudio.google.com/reporting/6321dc57-070e-4ad1-b97b-13be9876187d', //USANDO SIFILIS 22-23 ATÉ 2025 FICAR PRONTO!!!
         icon: 'users',
         gradient: 'sifilis'
     }
