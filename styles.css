@@ -179,7 +179,7 @@ body {
     background: var(--card-bg-light);
     border-color: var(--border-light);
     box-shadow: var(--shadow-light);
-    text-decoration: none; /* Adicionado para remover o sublinhado */
+    text-decoration: none; 
 }
 
 .card:hover {
