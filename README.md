@@ -41,7 +41,7 @@ O portal foi construído com foco em performance, acessibilidade e baixo custo d
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/ovitorleal/portal-epidemio-vr.git](https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git)
+    git clone [https://github.com/ovitorleal/portal-epidemio-vr.git]
     ```
 2.  **Navegue até a pasta do projeto:**
     ```bash
