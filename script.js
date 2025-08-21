@@ -62,6 +62,7 @@ const LinkManager = {
 // SEÇÃO DE PAINÉIS
 const PanelData = [
     {
+        //card dengue
         id: 'dengue',
         title: 'Dengue',
         description: 'Dados sobre a Dengue no município.',
@@ -70,6 +71,7 @@ const PanelData = [
         gradient: 'dengue'
     },
     {
+        // card dados vitais - nascidos vivos + óbitos
         id: 'vitais',
         title: 'Dados Vitais',
         description: 'Dados referentes aos nascimentos e óbitos do município.',
@@ -78,6 +80,7 @@ const PanelData = [
         gradient: 'vitais'
     },
     {
+        // card vacina de rotina - esperar glaucio fazer o painel para colocar link certo !!!
         id: 'vacinacao',
         title: 'Vacinação de Rotina',
         description: 'Cobertura vacinal e dados sobre vacinação de rotina no município.',
@@ -86,6 +89,7 @@ const PanelData = [
         gradient: 'vacinacao'
     },
     {
+        // card notificações compulsorias - esperar NOTION respondido pra montar o painel das doenças escolhidas
         id: 'doencas',
         title: 'Doenças e Agravos',
         description: 'Doenças e agravos de notificação compulsória no município.',
@@ -94,6 +98,7 @@ const PanelData = [
         gradient: 'doencas'
     },
     {
+        // card campanha anual de influenza - REVER SE REALMENTE HÁ NECESSIDADE DE UM PAINEL OU INCLUI NA ROTINA
         id: 'influenza',
         title: 'Vacinação contra Influenza',
         description: 'Informações sobre a vacinação anual contra Influenza no município.',
@@ -102,10 +107,11 @@ const PanelData = [
         gradient: 'influenza'
     },
     {
+        // card sifilis - por enquanto usar 2022 - 2023 para a CERTIFICAÇÃO DA SES 
         id: 'sifilis',
         title: 'Sífilis',
         description: 'Informações sobre os casos de Sífilis do município.',
-        url: 'https://lookerstudio.google.com/reporting/6321dc57-070e-4ad1-b97b-13be9876187d', //USANDO SIFILIS 22-23 ATÉ 2025 FICAR PRONTO!!!
+        url: 'https://lookerstudio.google.com/reporting/6321dc57-070e-4ad1-b97b-13be9876187d', //USANDO SIFILIS 22-23 PARA CERTIFICAÇÃO
         icon: 'users',
         gradient: 'sifilis'
     }
@@ -114,6 +120,7 @@ const PanelData = [
 // SEÇÃO DE MATERIAL DE APOIO
 const SupportData = [
     {
+        // drive do vivver com TODO material de Epidemio
         id: 'notificacoes',
         title: 'Notificações e Agravos',
         description: 'Fichas de notificação, notas técnicas e documentos de apoio.',
@@ -122,6 +129,7 @@ const SupportData = [
         gradient: 'notificacoes'
     },
     {
+        // drive do vivver com TODO material de imunização (incluisiv POP's)
         id: 'imunizacao',
         title: 'Imunização',
         description: 'Calendários, informes técnicos e materiais sobre imunização.',
