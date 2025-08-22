@@ -227,7 +227,7 @@ const renderCookieConsent = () => {
     }
 };
 
-// Main Initialization Function
+// função principal de renderização
 const init = () => {
     ThemeManager.init();
     renderCards();
@@ -247,9 +247,9 @@ const init = () => {
         }
     });
 
-    // Handle smooth scrolling
+    // Scroll smooth
     document.documentElement.style.scrollBehavior = 'smooth';
 };
 
-// Initialize when DOM is loaded
+// Inicialização do DOM
 document.addEventListener('DOMContentLoaded', init);
