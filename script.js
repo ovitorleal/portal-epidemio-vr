@@ -84,7 +84,7 @@ const PanelData = [
         id: 'vacinacao',
         title: 'Vacinação de Rotina',
         description: 'Cobertura vacinal e dados sobre vacinação de rotina no município.',
-        url: 'https://infoms.saude.gov.br/extensions/SEIDIGI_DEMAS_VACINACAO_CALENDARIO_NACIONAL_COBERTURA_RESIDENCIA/SEIDIGI_DEMAS_VACINACAO_CALENDARIO_NACIONAL_COBERTURA_RESIDENCIA.html',
+        url: 'https://docs.google.com/spreadsheets/d/1ByzyHrbe6Dwx6FrUUvXYZnz9f4LVciBRZm2uUQE8o_0/edit?gid=0#gid=0', // provisório, link do Google Sheets para apresentação 22/08
         icon: 'shield',
         gradient: 'vacinacao'
     },
